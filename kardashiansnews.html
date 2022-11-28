@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Boostrap Course</title>
+    <!--Add CSS and JS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color:#f5f2df; color: #6b705c;">
+        <div class="container mt-3">
+            <a href="home.html" class="navbar-brand"><img src="images/DNR_logo.png" width="200px" height="80px"></a>
+            <span class="navbar-text"></span>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mymenu">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">Account</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="signup.html" class="dropdown-item">Sign Up</a></li>
+                            <li><a href="login.html" class="dropdown-item">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">Today's News</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="genshinnews.html" class="dropdown-item">Genshin Impact</a></li>
+                            <li><a href="enolanews.html" class="dropdown-item">Movies</a></li>
+                            <li><a href="kardashiansnews.html" class="dropdown-item">Kardashians</a></li>
+                            <li><a href="phonesnews.html" class="dropdown-item">Phones</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+                <form class="d-flex">
+                    <input type="search" class="form-control" placeholder="Search">  
+                    <button class="btn mx-2" type="submit" style="background-color: #ffff;"><i class="fa-solid fa-magnifying-glass" style="color: #6b705c;"></i></button>
+                </form>
+            </div>
+        </div>     
+    </nav>
+
+    <img src="images/kardashian_familyt-tree.png" alt="" class="w-100">
+
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+        <!--<ol class="carousel-indicators">
+            <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+        </ol>-->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/kris_carousel.jpg" alt="Kris Jenner" class="d-block w-100 card-img" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Kristen Mary Jenner</h3>
+                    <p>
+                        Age: 67 y/o <br>
+                        Birthday: November 5,1995 <br>
+                        Spouse: Robert Kardashian (1978-1991) & Caitlyn Jenner (1991-2015)  <br>
+                        Occupation: Actor, Musician, Talent Manager, Author, Flight Attendant, TV Producer, Businessperson, Television Presenter, Media Personality, Enterprenuer, Showman & TV Personality
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/kourtney_carousel.png" alt="Kourtney Kardashian" class="d-block w-100" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Kourtney Mary Kardashian</h3>
+                    <p>
+                        Age: 43 y/o <br>
+                        Birthday: April 18, 1979 <br>
+                        Spouse: Travis Barker <br>
+                        Occupation: Model, Entreprenuer, TV Personality, Actor, Fashion Designer, Businessperson, TV Producer, Scoialite & Media Personality 
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/kim_carousel.png" alt="Kim Kardashian" class="d-block w-100" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Kimbery Noel Kardashian West</h3>
+                    <p>
+                        Age: 42 y/o <br>
+                        Birthday: October 21, 1980<br>
+                        Spouse: Damon Thomas (2000-2004), Kris Humphries (2011-2013) & Kanye West (2014-2022) <br>
+                        Occupation: Scoialite, Fashion Designer, Buinessperson, TV Producer, Entreprenuer, Media Personality, Adult Model & TV Personality
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/khloe_carousel.png" alt="Khloe Kardashian" class="d-block w-100" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Khloé Alexandra Kardashian</h3>
+                    <p>
+                        Age: 38 y/o <br>
+                        Birthday: June 27, 1984 <br>
+                        Spouse: Lamar Odom (2009-2016) <br>
+                        Occupation: Model, Film Producer, Radio Personality, Actor, Fashion Designer, Manufacturer, Author, Novelist, Film Actor, Entreprenuer, Television Presenter & TV Producer
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/kendall_carousel.png" alt="Kendall Jenner" class="d-block w-100" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Kendall Nicole Jenner</h3>
+                    <p>
+                        Age: 27 y/o <br>
+                        Birthday: November 3, 1995 <br>
+                        Spouse: None <br>
+                        Occupation: Model, TV Personality, Actor, Socialite & Media Personality
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/kylie_carousel.png" alt="Kylie Jenner" class="d-block w-100" height="600px">
+                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.4);">
+                    <h3>Kylie Kirsten Jenner</h3>
+                    <p>
+                        Age: 25 y/o <br>
+                        Birthday: August 10, 1997 <br>
+                        Spouse: Travis Scott <br>
+                        Occupation: Entreprenuer, Merchant, Author, Fashion Designer, Incluencer, Media Personality, Adult Model & TV Personality 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="justify-content-center d-flex">
+        <img src="images/kuwtk.png" alt="" class="mt-5">  
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-7">
+                <h3 class="mt-5">Show that has recorded their <i>childhood</i></h3>
+                <p style="font-size: 18px; line-height: 30px;" class="mt-5">
+                    The Kardashian-Jenners being one of the most famous families in this world, they have their own reality shows equalling their fame. Their family solely has produced several own shows but among all the shows they've aired, "Keeping Up With the Kardashians" is the most popular show. Containing all the members of the family and sometimes even special guests and people you never knew existed. This show have got everything you'd want to keep yourself entertained: chaos, drama, comedy, commontion; anything you name it. The show follows the lives which aren't shown to the world the Kardashian-Jenners family live. 
+                </p>
+            </div>
+
+            <div class="col-md-5">
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcwTk4vNDIxYPTizk4sSkkszshMzCsGAF2JB_M&q=kardashians&oq=karda&aqs=chrome.1.35i39j46i67j69i59l4j69i60l2.1526j0j7&sourceid=chrome&ie=UTF-8#imgrc=AIXpwZWoOp9HcM%253A" target="_blank">
+                    <img src="images/kuwtk_info.jpg" alt="Keeping Up With the Kardashians" style="width: 300px; height: 500px; margin-left: 100px;">
+                </a>
+                <p style="margin-left: 310px;">
+                    By <i>Kate</i> 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row pe-3 ps-3">
+            <div class="col-md-4" style="border-right: 2px black solid;">
+                <h4 style="text-align: center;">Details</h4>
+                <p style="font-size: 18px; line-height: 30px;" class="mt-4">
+                    Genre: Reality Television <br>
+                    Country of Origin: United strangerthings <br>
+                    Original Language: English <br>
+                    Number of Seasons: 20 <br>
+                    Number of Episodes: 280 + 6 specials <br>
+                    Running Time: 22 minutes (seasons 1-6) & 42 minutes (seasons 7-20)
+                    Created by: Ryan Seacrest <br>
+                    Theme Music: Brandon Burton <br>
+                    Composers: Aaron Lammer & Francis Farewell Starlite <br>
+                </p>
+            </div>
+
+            <div class="col-md-4" style="border-right: 2px black solid;">
+                <h4 style="text-align: center;">Starring</h4>
+                <p style="line-height: 30px;" class="mt-4">
+                    <ul style="font-size: 18px;">
+                        <li>Kris Jenner</li>
+                        <li>Caitlyn Jenner</li>
+                        <li>Kourtney Kardashian</li>
+                        <li>Kim Kardashian</li>
+                        <li>Khloe Kardashian</li>
+                        <li>Rob Kardashian</li>
+                        <li>Kendall Jenner</li>
+                        <li>Kylie Jenner</li>
+                        <li>Scott Disick</li>
+                        
+                    </ul>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+              <h4  style="text-align: center;">Production</h4>
+              <p style="font-size: 18px; line-height: 30px;" class="mt-4">
+                Executive: Ryan Seacrest <br>
+                Producers: Jonathan Murray, Gil Goldschein, Jeff Jenkins, Farna Farjam-Chazan, Kris Jenner, Kourtney Kardashian, Kim Kardashian & Khloe Kardashian <br>
+                Production Locations: Los Angeles & California <br>
+                Camera Setup: Multi-Camera <br>
+                Production Companies: Ryan Seacrest Productions & Bunim/Murray Productions <br>
+                Distributor: NBCUniversal Syndication Studios 
+              </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container mt-5">
+        <h2>More Kardashian-Jenners Topics</h2>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <a href="https://parade.com/1003866/stefanieparker/kylie-jenner-kim-kardashian-family-net-worth/" target="_blank">
+                    <img src="images/kardashian_rich.jpg" alt="" style="width: 250px; height: 150px;">
+                </a>
+                <p>Richest Kardashian-Jenner among their filthy rich family<p>
+            </div>
+
+            <div class="col-md-3">
+                <a href="https://radaronline.com/photos/kuwtk-before-after-plastic-surgery-photos/" target="_blank">
+                    <img src="images/kardashian_plastic.webp" alt="" style="width: 250px; height: 150px;">
+                </a>
+                <p>How many plastic surgeries have the Kardashian-Jenners had?<p>
+            </div>
+
+            <div class="col-md-3">
+                <a href="https://www.hola.com/us/celebrities/20220928337514/all-the-kardashian-kids-go-to-the-same-school/" target="_blank">
+                    <img src="images/kardashian_children.png" alt="" style="width: 250px; height: 150px;">
+                </a>
+                <p>Kardashian-Jenner spoiling their adorable children</p>
+            </div>
+
+            <div class="col-md-3">
+                <div class="justify-content-center d-flex mt-5">
+                    <a href="signup.html"><button class="btn" type="button" style="background-color:#6b705c; color:#f5f2df; margin-left: 0;">See More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid mt-5" style="background-color:#6b705c;">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="home.html">
+                    <img src="images/DNR_logo_footer.png" class="card-img">
+                </a>
+            </div>
+            <div class="col-md-4 ">
+                <div class="my-4 form-floating" >
+                    <input class="form-control" placeholder="Enter your email addres" style="color:#6b705c; background-color: #f5f2df;">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn" style="background-color: #f5f2df; color: #6b705c;">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3 text-center"  style="color: #f5f2df">
+                    <h4>Call us</h4>
+                    <div class="mt-4">
+                        <p>+95 987654321
+                           <br>
+                           +95 123456789</p>
+                    </div>
+                <div class="my-3">
+                    <h4 class="mb-4">Contact us</h4>
+                        <a href="https://www.google.com/" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-google"></i></button>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-facebook"></i></button>
+                        </a>
+                        <a href="https://twitter.com/home" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-twitter"></i></button>
+                        </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-solid fa-envelope"></i></button>
+                        </a>
+                </div>
+            </div>
+            <div style="color: #f5f2df">
+            <hr class="height">
+            <p class="text-center">Copyright @ DNR 2022</p></div>
+        </div>
+    </div>
+</body>

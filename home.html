@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Boostrap Course</title>
+    <!--Add CSS and JS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color:#f5f2df; color: #6b705c;">
+        <div class="container mt-3">
+            <a href="home.html" class="navbar-brand"><img src="images/DNR_logo.png" width="200px" height="80px"></a>
+            <span class="navbar-text"></span>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mymenu">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">Account</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="signup.html" class="dropdown-item">Sign Up</a></li>
+                            <li><a href="login.html" class="dropdown-item">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">Today's News</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="genshinnews.html" class="dropdown-item">Genshin Impact</a></li>
+                            <li><a href="enolanews.html" class="dropdown-item">Movies</a></li>
+                            <li><a href="kardashiansnews.html" class="dropdown-item">Kardashians</a></li>
+                            <li><a href="phonesnews.html" class="dropdown-item">Phones</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+                <form class="d-flex">
+                    <input type="search" class="form-control" placeholder="Search">  
+                    <button class="btn mx-2" type="submit" style="background-color: #ffff;"><i class="fa-solid fa-magnifying-glass" style="color: #6b705c;"></i></button>
+                </form>
+            </div>
+        </div>     
+    </nav>
+
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/kel_carousel.png" alt="Space" class="d-block w-100" height="650px">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/yoon_carousel.png" alt="Movies" class="d-block w-100" height="650px">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/kate_carousel.jpg" alt="Kardashians" class="d-block w-100" height="650px">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/mtc_carousel.png" alt="Phones" class="d-block w-100" height="650px">
+            </div>
+        </div>
+
+        <!--<a class="carousel-control-prev" href="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>-->
+    </div>
+
+    <div class="container mt-5" style="padding: 0px;">
+        <div class="row justify-content-between">
+            <div class="col-md-4" style="padding: 0;">
+                <img src="images/genshion1.png" alt="" height="300px;" width="420px;" class="card-img">
+            </div>
+            <div class="col-md-4">
+                <h3>Will Genshion Impact still be popular <i>in 2023?</i></h3>
+                <p>When Genshin Impact was first launched in September 2020, it undoubtedly ranked among the most famous open-world RPG games. In fact, before the game's launch, it already had more than 21 million pre-registered players.</p>
+                <div class="text-center">
+                    <a href="genshinnews.html">
+                        <button class="btn btn-primary" type="button">See More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/genshion2.png" alt="" height="300px;" width="420px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding:50px 50px;">
+        <div class="row justify-content-between">                 
+            <div class="col-md-7" style="padding: 0;">
+                <a href="https://images.app.goo.gl/eVU7nzStmykdDVCP8" target="_blank"><img src="images/Enola2.jpg" alt="Enola Holmes 2" height="532px" width="650px;" class="img-responsive mt-3"></a>
+            </div>
+            <div class="col-md-5">
+                
+                <h3>Enola Holmes 2</h3> 
+                <p><i><b>The Young & Unwavering Girl Reappears.</b></i></p>    
+                
+                <p>In Enola Holmes 2, a detective-for-hire, Enola takes on her first case, but to solve the mystery of a missing girl under dangerous circumstances that requires assistance of her friends - and brother, Sherlock Holmes - to untangle. <b>Did Millie Bobby Brown gain the public once again with Enola Holmes 2?</b></p>          
+                <div>
+                    <button class="btn" type="button" style="background-color: #6b705c;"><a href="enolanews.html" class="text-decoration-none" style="color:#f5f2df">Read More</a></button>
+                </div>
+
+                <div>
+                    <h5 class="mt-3"><i>Recent Top 10 TV Shows</i></h5>
+                </div>
+
+                <div class="carousel slide carousel-fade mt-3" data-bs-ride="carousel" id="my_id">
+              
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <div class="row row-cols-auto" style="justify-content: center;">
+
+                                <div class="col-xs-6">
+                                    <a href="https://images.app.goo.gl/eVU7nzStmykdDVCP8"><img src="images/Enola1.jpeg" alt="Enola Holmes 1"  height="237px" width="450px"></a>
+                                    <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                        <h5>Enola Holmes</h>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"  data-bs-interval="3000">
+                            <div class="row row-cols-auto" style="justify-content: center;">
+
+                                <div class="col-xs-6">
+                                    <a href="https://images.app.goo.gl/b9Lp5tMDM3D31AsBA"><img src="images/snowdrop.jpeg" alt="Snowdrop"  height="237px" width="450px"></a>
+                                    <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                        <h5>Snowdrop</h>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item"  data-bs-interval="3000">
+                        <div class="row row-cols-auto" style="justify-content: center;">
+
+                            <div class="col-xs-6">
+                                <a href="https://images.app.goo.gl/movmpSH1JnqraH3t5"><img src="images/Lighter&Princess.jpeg" alt="Lighter and Princess"  height="237px" width="450px"></a>
+                                <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                    <h5>Lighter & Princess</h>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/fK5CxFpdS27hyW1B8"><img src="images/thegoldenspoon.jpeg" alt="The Golden Spoon"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>The Golden Spoon</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/tLFGRsq5xPvHAKcK7"><img src="images/Love&Redemption.webp" alt="Love & Redemption"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>Love & Redemption</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/1SB6mbbhJEjXRrWi6"><img src="images/20thcenturygirl.jpeg" alt="20th Century Girl"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>20th Century Girl</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/ZaD9b63RaoNkgGoXA"><img src="images/Vincenzo.jpeg" alt="Vincenzo"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>Vincenzo</h>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/fT3ZsBGGZAVHdyvt7"><img src="images/strangerthings.jpeg" alt="Stranger Things"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>Stranger Things</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/1xNwmChUQTppK3YDA"><img src="images/whorulestheworld.jpeg" alt="Who Rules The World"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>Who Rules The World</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <div class="carousel-item"  data-bs-interval="3000">
+                    <div class="row row-cols-auto" style="justify-content: center;">
+
+                        <div class="col-xs-6">
+                            <a href="https://images.app.goo.gl/TuF4XrbkSQBQTS2Q7"><img src="images/HarryPotter.jpeg" alt="Harry Potter"  height="237px" width="450px"></a>
+                            <div class="carousel-caption" style="background-color: rgba(0, 0, 0, 0.457); padding:8px;">
+                                <h5>Harry Potter</h>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#my_id" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+        
+                <a class="carousel-control-next" href="#my_id" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                </div>
+            </div>                
+        </div>  
+    </div>
+
+    <div class="container-fluid" style="padding-top: 50px; padding-bottom: 50px; padding-left: 50px; padding-right: 50px;">
+        <div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://people.com/tv/the-kardashians-recap-kris-jenner-wants-to-be-cremated-made-into-necklaces-for-children/" target="_blank">
+                    <div class="row">
+                        <img src="images/kris.jpg" alt="Kris" style="height: 200px; width: 490px; border-radius: 10%;" class="my-3">
+                    </div>
+                    </a>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="https://www.imdb.com/name/nm1507976/" target="_blank">
+                                <img src="images/robert.jpg" alt="" style="width: 180px; height: 180px; border-radius: 10%;" class="mb-3">
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="https://www.biography.com/personality/caitlyn-jenner" target="_blank">
+                                <img src="images/caitlyn.jpg" alt="" style="width: 180px; height: 180px; border-radius: 10%;" class="mb-3">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="https://www.scmp.com/magazines/style/celebrity/article/3174130/who-richest-kardashian-jenner-familys-net-worths-ranked" target="_blank">
+                    <div class="row">
+                        <img src="images/family.png" alt="" style="height: 200px; border-radius: 10%;" class="mb-3">
+                    </div>
+                    </a>
+                </div>
+    
+                <div class="col-md-4">
+                    <a href="kardashiansnews.html" style="text-decoration: none;">
+                        <h3 style="color: black; margin-top: 100px;">Who are the <i>Kardashians-Jenners</i> family?</h3>
+                    </a>
+                    <p class="mt-4">
+                        The Kardashian family, also referred to as the Kardashian-Jenner family,is an American family prominent 
+                        in the fields of entertainment, reality television, fashion design, and business. It consists of their children Kourtney, Kim, Khloé, and Rob 
+                        Kardashian, as well as their grandchildren. After Robert and Kris' divorce in 1991, Kris married Olympic 
+                        decathlon champion Bruce Jenner (now Caitlyn Jenner) with whom she had two daughters: Kendall and Kylie 
+                        Jenner. Notable extended relatives include Kendall and Kylie's half-siblings, Brandon and Brody Jenner.
+                    </p>
+                </div>
+    
+                <div class="col-md-4">
+                    <a href="https://wordsmeanthings.medium.com/kim-kardashian-does-not-work-hard-adb8268549c4">
+                    <div class="row">
+                        <img src="images/kardashians.png" alt="" style="width: 500px; height: 200px; border-radius: 10%;" class="mt-4 mb-5">
+                    </div>
+                    </a>
+
+                    <a href="https://www.usmagazine.com/stylish/pictures/kendall-x-kylie-cosmetics-makeup-collection-products-details-pics/" target="_blank">
+                    <div class="row">
+                        <img src="images/jenners.png" alt="" style="width: 500px; height: 350px; border-radius: 10%;" class="mb-4">
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding-bottom: 100px; padding-left: 50px; padding-right: 50px;">
+        <div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/phone1.png" alt="" style="height: 200px; width: 150px;" class="mt-3 ms-2">
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="images/phone3.png" alt="" style="height: 200px; width: 220px;" class="mt-3">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/phone4.png" alt="" style="height: 200px; width: 150px; margin-top: 40px;" class="mb-3 ms-2">
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="images/phone5.png" alt="" style="height: 230px; width: 185px;" class="mt-4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 mx-3">
+                    <a href="phonesnews.html" style="color: black; text-decoration: none;">
+                        <h3 style="margin-top: 130px;">The <i>newest</i> made phones are popping off</h3>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/phone2.png" alt="" style="height: 400px; width: 300px;" class="mt-5">
+                </div>
+
+                <div class="col-md-2" style="margin-top: 150px;">
+                    <p>
+                        Latest Mobile News, New IPhone News, latest samsung News, and other latest mobile phone brands...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid" style="background-color:#6b705c;">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="home.html">
+                    <img src="images/DNR_logo_footer.png" class="card-img">
+                </a>
+            </div>
+            <div class="col-md-4 ">
+                <div class="my-4 form-floating" >
+                    <input class="form-control" placeholder="Enter your email addres" style="color:#6b705c; background-color: #f5f2df;">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn" style="background-color: #f5f2df; color: #6b705c;">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3 text-center"  style="color: #f5f2df">
+                    <h4>Call us</h4>
+                    <div class="mt-4">
+                        <p>+95 987654321
+                           <br>
+                           +95 123456789</p>
+                    </div>
+                <div class="my-3">
+                    <h4 class="mb-4">Contact us</h4>
+                        <a href="https://www.google.com/" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-google"></i></button>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-facebook"></i></button>
+                        </a>
+                        <a href="https://twitter.com/home" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-brands fa-twitter"></i></button>
+                        </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                            <button class="btn btn-dark mx-2" style="width: 60px; height: 60px; color: #6b705c; background-color: #f5f2df; border: #6b705c 2px solid; font-size: 30px;"><i class="fa-solid fa-envelope"></i></button>
+                        </a>
+                </div>
+            </div>
+            <div style="color: #f5f2df">
+            <hr class="height">
+            <p class="text-center">Copyright @ DNR 2022</p></div>
+        </div>
+    </div>
+</body>
+</html>
